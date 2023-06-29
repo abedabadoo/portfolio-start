@@ -11,3 +11,6 @@
         document.body.classList.toggle("light-mode");
     })
 })();
+
+//Default deploy task
+exports.build = series(scssTask, jsTask);

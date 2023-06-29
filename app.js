@@ -12,5 +12,3 @@
     })
 })();
 
-//Default deploy task
-exports.build = series(scssTask, jsTask);
